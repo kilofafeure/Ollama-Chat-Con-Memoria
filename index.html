@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scaled=1'>
+        <title>Chat con Ollama</title>
+        <link rel='stylesheet' href='main.css'>
+    </head>
+</html>
+
+<body>
+    <div class="container">
+        <h1>Chat con Ollama</h1>
+        <label id="lblModelSelector" for="modelSelector">Selecciona un modelo:</label> 
+        <select id="modelSelector"> 
+            <option selected value="gemma4:e2b">gemma4:e2b</option> 
+            <option value="qwen2.5-coder:14b">qwen2.5-coder:14b</option> 
+        </select>
+        <textarea id="prompt" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
+        <div class="right">
+            <button id="btnSend">Enviar</button>
+        </div>
+        <div id="response"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
