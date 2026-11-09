@@ -40,7 +40,7 @@ script.js     - Lógica de interacción con Ollama
 
 ## Notas
 
-- Proyecto de prueba básica. No incluye historial de conversación ni modo streaming.
+- Proyecto que guarda el contexto del chat que mantenemos con el modelo
 
 ## Licencia
 
